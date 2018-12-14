@@ -16,4 +16,20 @@ client.user.setStatus("dnd")
 
 
 
+client.on('ready',async () => { client.channels.find(ch => ch.id === "515217327252307978" && ch.type === 'voice').join(); });
+
+
+client.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("515214611377684487");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`Welcome`), 4000)        
+}
+});
+
+
+
+
+
+
 client.login(process.env.BOT_TOKEN);

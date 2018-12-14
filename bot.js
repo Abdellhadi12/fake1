@@ -8,7 +8,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : bad ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`الضعيف لا يغفر، فالمغفرة شيمة القوي`,"https://www.twitch.tv/bad_girl_128")
+client.user.setGame(`الضعيف لا يغفر، فالمغفرة شيمة القوي`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 

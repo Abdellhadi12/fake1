@@ -1,18 +1,17 @@
-﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "!";
-
-
+var prefix = "+";
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : i1Suhaib`);
+      console.log(`Cyhper Bot Script By : bad`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : bad ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(` الضعيف لا يغفر، فالمغفرة شيمة القوي`,"http://twitch.tv/S-F")
+client.user.setGame(`الضعيف لا يغفر، فالمغفرة شيمة القوي`,"https://www.twitch.tv/bad_girl_128")
 client.user.setStatus("dnd")
 });
+
 
 
 
@@ -32,4 +31,4 @@ setTimeout(() => mohamed.send(`Welcome`), 4000)
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء

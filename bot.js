@@ -24,7 +24,9 @@ client.on('guildMemberAdd', member => {
 const mohamed= member.guild.channels.get("515214611377684487");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(`Welcome`), 4000)        
+setTimeout(() => mohamed.send(`** Welcom to Stylight....:dove: ** `), 4000)        
+
+
 }
 });
 
